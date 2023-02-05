@@ -3,7 +3,6 @@ package com.Mortgage;
 import com.Mortgage.CalculationLogic.MortgageCalculator;
 import com.Mortgage.Console.Console;
 import com.Mortgage.Report.MortgageReport;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -17,5 +16,4 @@ public class Main {
         report.printMortgage();
         report.printPaymentSchedule();
     }
-
 }
